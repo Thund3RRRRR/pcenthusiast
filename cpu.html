@@ -20,6 +20,10 @@
             height: 100%;
             object-fit: cover;
         }
+
+        .heading {
+            color: aquamarine;
+        }
     </style>
 
     <div class="container-fluid text-center rounded">
@@ -67,7 +71,7 @@
     </nav>
 
     <div class="container">
-        <h1 class="text-center">CPU (Central Processing Unit)</h1>
+        <h1 class="text-center heading">CPU (Central Processing Unit)</h1>
         <div class="row bg-white">
             <p>Think of the CPU as the brain of your computer. It holds the instructions
             for your computer, and lets it know what to do and when to do it. The more powerful
@@ -78,28 +82,105 @@
         <br>
         <div class="row">
             <div class="col-sm-4">
-                <img src="https://i0.wp.com/insider-gaming.com/wp-content/uploads/2022/12/amd-ryzen-cpu.png?fit=1920%2C1080&ssl=1" alt="AMD CPU">
+                <img src="images/ryzencpu.jpg" alt="AMD CPU">
             </div>
             <div class="col-sm-8 bg-white">
                 <p>The first of the two brands is AMD. AMD is primarily
                 known for its capabilities in the media industry. These processors usually have many cores,
                 allowing the computer to run multiple tasks like video editors, or anything to do with content
-                creation at a very efficient speed. it still sucks still dont buy it
+                creation at a very efficient speed. 
                 </p>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-sm-4">
-                <img src="https://www.intel.in/content/dam/www/central-libraries/us/en/images/2022-08/rpl-2022-dotcom-2col-nextlevel.png.rendition.intel.web.480.270.png" alt="Intel CPU">
+                <img src="images/intelcpu.jpg" alt="Intel CPU">
             </div>
             <div class="col-sm-8 bg-white">
                 <p>If you are a gamer, and you are a building a computer targeted towards the performance
                 of your computer while playing a game, then Intel's high instructions-per-clock (IPC) speed
-                is the way to go for you. buy this instead lets get real
+                is the way to go for you. 
                 </p>
             </div>
         </div>
+
+        <br>
+
+        <h1 class="text-center heading">Pricing</h1>
+
+        <table class="table table-bordered bg-white">
+            <thead>
+                <tr>
+                    <th>Intel</th>
+                    <th>AMD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Low end CPU: $100-200</td>
+                    <td>Low end CPU: $100-200</td>
+                </tr>
+                <tr>
+                    <td>Mid range CPU: $200-350</td>
+                    <td>Mid range CPU: $200-250</td>
+                </tr>
+                <tr>
+                    <td>High end CPU: $~600</td>
+                    <td>High end CPU: $~550</td>
+                    <!-- add wattage and vocab page -->
+                </tr>
+                <tr>
+                    <td>As you may have noticed, Intel processors tend to be a little more expensive.
+                    But you do get what you're paying for, with the quality being comparatively
+                    better when contrasting the AMD and Intel series levels (I5 to Ryzen 5, I7 to Ryzen 7, etc).
+                    </td>
+                    <td>Ryzen processors are the more affordable option, and you get the most bang
+                    for your buck. However, in most cases, there is usually a need for an upgrade a little later
+                    down the line.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <h1 class="text-center heading">Cooling</h1>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/amdstock.jpg" alt="AMD Stock Cooler">
+            </div>
+            <div class="col-sm-8 bg-white">
+                If you don't really care about visual appearance, and you have an AMD CPU,
+                you're in luck, becuase you barely have to worry about cooling. Most AMD CPUs come
+                with their own stock cooler which is designed to nicely regulate the temperature of your CPU.
+                Keep in mind that as the generations progress, AMD could refrain from putting 
+                coolers in their CPU packages, in which case you can order a stock cooler for anywhere
+                between 20 and 80 dollars, depending on how colorful you want it to be. One more thing
+                to make sure of when buying a cooler is that it's compatable with your CPU and motherboard,
+                because not all of them are, while others require manual adjustment to fit the correct
+                type.
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="/images/aio.jpeg" alt="Water Cooler">
+            </div>
+            <div class="col-sm-8 bg-white">
+                If you do care about appearance, and you have the budget to put a nice touch
+                of lighting into your PC, then you may want to consider water cooling. This method
+                is significantly more effective when cooling your components, looks nice, and allows for temperature
+                adjustment, but that doesn't mean that it's important. Standard fans and a stock cooler will get the job done just fine. Some things to
+                consider when purchasing a water cooler (often called an AIO) is not only the price,
+                but the installation process, which is almost always more complicated than the usual stock cooler.
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 p-4 bg-dark text-white text-center">
+        <p>Footer</p>
     </div>
 </body>
 </html>
