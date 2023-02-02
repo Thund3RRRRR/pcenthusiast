@@ -36,36 +36,7 @@
         <div class="p-3 bg-primary text-white">
             <h1 id="pcEnthusiast" data-value="PCEnthusiast">PCEnthusiast</h1>
         </div>
-        <script>
-            const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-            let interval = null;
-
-            document.querySelector("#pcEnthusiast").onmouseover = event => {  
-            let iteration = 0;
-            
-            clearInterval(interval);
-            
-            interval = setInterval(() => {
-                event.target.innerText = event.target.innerText
-                .split("")
-                .map((letter, index) => {
-                    if(index < iteration) {
-                    return event.target.dataset.value[index];
-                    }
-                
-                    return letters[Math.floor(Math.random() * 26)]
-                })
-                .join("");
-                
-                if(iteration >= event.target.dataset.value.length){ 
-                clearInterval(interval);
-                }
-                
-                iteration += 1 / 3;
-            }, 30);
-            }   
-        </script>
+        <script src="logoanim.js" type="module"></script>
     </div>
 
      <nav class="navbar navber-expand-sm bg-dark navbar-dark">
@@ -109,10 +80,21 @@
     <div class="container">
         <h1 class="heading text-center">RAM</h1>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 d-none d-lg-block">
                 <img src="images/RAMImages/mainsticks.jpg" alt="Cover RAM Sticks">
             </div>
-            <div class="col-sm-8 bg-white">
+            <div class="row d-xs-block d-sm-block d-md-block d-lg-none">
+                <img src="images/RAMImages/mainsticks.jpg" alt="Cover RAM Sticks">
+            </div>
+            <div class="col-sm-8 bg-white d-none d-lg-block">
+                The RAM sticks have a similar function to the CPU, in the sense that they boost the efficiency of the computer.
+                But the bigger focus is that they allow for more applications to be running at once. Has your laptop ever been
+                slowing down because you have too many tabs open? Or maybe you're downloading something while trying to play a game?
+                The RAM is what is keeping track of running all of those things at once. Now typically, the average computer user 
+                is hardly ever using any more than 16 gigabytes of ram at a time. And even that is a huge stretch. You can easily
+                get away with 8 gigabytes for just normal day to day usage, such as for work, or a game.
+            </div>
+            <div class="row d-xs-block d-sm-block d-md-block d-lg-none bg-white">
                 The RAM sticks have a similar function to the CPU, in the sense that they boost the efficiency of the computer.
                 But the bigger focus is that they allow for more applications to be running at once. Has your laptop ever been
                 slowing down because you have too many tabs open? Or maybe you're downloading something while trying to play a game?
@@ -142,6 +124,25 @@
                         This is a perfect amount if you intend on using your computer for simple day to day activities.
                         Just make sure to not have too many big applications open at once, like multiple of twitch streams,
                         or recording yourself playing a game.
+                    </td>
+                </tr>
+                <tr>
+                    <td>16GB</td>
+                    <td>
+                        This tends to be what most people settle on because of its lost lasting abilities. Almost always, no one
+                        needs more than 16GB of RAM. If you wanted to record yourself playing a game, and have 2 monitors going at once,
+                        16 gigabytes will do the job just fine. This is the most common package you will see, and doesn't hurt to invest
+                        in.
+                    </td>
+                </tr>
+                <tr>
+                    <td>32GB</td>
+                    <td>
+                        Yes, there is such thing as 24 gigabytes, but at that point it's better to just get 32. There are only a few specific
+                        types of people who will actually benefit from having this many gigabytes. People who stream their games,
+                        record them, have a computer powering 3 or more monitors at a time, and are simultaniously running multiple other programs
+                        are going to need this much RAM. Anything upwards of this amount will 1, require a special motherboard, and 2, not be relavent to
+                        you because those who need it will know it.
                     </td>
                 </tr>
             </tbody>
