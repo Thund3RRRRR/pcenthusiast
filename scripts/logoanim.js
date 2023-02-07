@@ -5,7 +5,6 @@ let interval = null;
 let target = document.querySelector("[data-value]")
 
 window.onload = event => {
-    console.log("function called")
     let iteration = 0;
             
     clearInterval(interval);
