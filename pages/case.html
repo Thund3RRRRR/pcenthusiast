@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: rgb(54, 52, 51);
+            font-family: regFont;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .heading {
+            color: aquamarine;
+        }
+
+        @font-face {
+            font-family: regFont;
+            src: url(../fonts/Hack-Regular.ttf);
+        }
+    </style>
+
+    <div class="container-fluid text-center rounded">
+        <div class="p-3 bg-primary text-white">
+            <h1 id="pcEnthusiast" data-value="PCEnthusaist">PCEnthusiast</h1>
+        </div>
+        <script src="../scripts/logoanim.js" type="module"></script>
+    </div>
+
+     <nav class="navbar navber-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+
+            <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="cpu.html">CPU</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="motherboard.html">Motherboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="ram.html">RAM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="storage.html">Storage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="case.html">Case</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="psu.html">Power Supply</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="gpu.html">Graphics Card</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="accessories.html">Accessories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="periph.html">Peripherals</a>
+            </li>
+         </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <h1 class="heading text-center">
+            The Case
+        </h1>
+    
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="../images/CaseImages/maincase.jpg" alt="Main Case Image">
+            </div>
+    
+            <div class="col-sm-8 bg-white">
+                The case is a fairly simple component. All of the other parts you buy need to be 
+                stored somewhere, and that place would be the case. It is where all of your parts, 
+                colors, fans, and power will be stored, and where everything else in your entire setup 
+                will come back to. All devices have a case of some sort, whether that be the small box 
+                in an all-in-one, under the keyboard of a laptop, or behind the screen of your phone. 
+                But in the case (haha) of PCs, they’re a lot bigger and don’t connect to the monitor, 
+                because the parts you’re using are so much bigger and stronger than the parts you buy 
+                from a laptop company.
+            </div>
+        </div>
+
+        <br>
+
+        <h1 class="heading text-center">
+            Cooling
+        </h1>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="../images/CaseImages/casefans.jpg" alt="Case Fans Image">
+            </div>
+
+            <div class="col sm-8 bg-white">
+                When all of your components are working at the same time, they are going to get very hot. 
+                And unlike the CPU which has its own cooler, there's no way for the other parts to cool down 
+                automatically, without being shut off. That's why we have fans. When it comes to case fans, 
+                there are 2 types; intake and exhaust. The intake fans draw in clean air from outside the PC, 
+                and move it into the case, so the parts don't overheat from all the hot air that they're releasing. 
+                This hot air is then removed from the PC through the exhaust fans. Intake and exhaust work together 
+                to provide a steady circuit of clean air throughout the PC, and make sure it's always being filtered 
+                to get rid of excess contaminants and heat.
+            </div>
+        </div>
+
+        <br>
+
+        <h1 class="heading text-center">
+            What Case Should I Get?
+        </h1>
+
+        <table class="table table-bordered bg-white">
+            <thead>
+                <tr>
+                    <th>Case Type</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Mini Tower</td>
+                    <td>
+                        Mini tower cases are perfect for lower end builds, with their compact size, resulting in a less
+                        hefty cost. They require less cooling, but can sometimes look a little odd if are placed on a desk
+                        next to a tall monitor, and in a bigger setup in general. It could just look a little disproportionate.
+                        Sometimes people with high quality parts like to fit their entire build into a mini tower, and if that's you,
+                        something to make sure of is that you know for sure that all your parts are going to be able to fit in the model
+                        easily, and be able to make minor adjustments accordingly.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mid Tower</td>
+                    <td>
+                        Mid tower cases are the most commonly bought, because they're a nice in-the-middle decision. You cant go wrong
+                        when it comes to looks, because worst case scenario, it's a little bigger or a little smaller than everything else,
+                        which is unnoticable. It's perfect for a mid range PC, but you can use it for any range build. Just make sure
+                        you have space for it in your budget.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Full Tower</td>
+                    <td>
+                        Full tower cases are the biggest of the bunch, and are most commonly used in super builds. A lot of the time, it's
+                        excessive to buy one, but if you are planning to put more components in than the typical computer has, go right
+                        ahead. But other than that, your best bet is to stick to mid towers and mini towers, because buying a full tower will
+                        cost you extra money that you easily could've saved.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row bg-white">
+            <div class="col">
+                A controlling factor of what case you get is the motherboard. The first thing you should do when buying a 
+                case is know what kind of motherboard, and then make sure you’re browning cases that can support it. Cases 
+                could range in price depending on size, as well as aesthetics. Some cases allow for more storage devices, 
+                extra graphics cards (even though this is often very excessive), vertical mounting, or the ability to install 
+                extra lighting. Others come with some fans pre installed, or lights pre installed and wired.
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 mb-1 p-4 bg-dark text-white text-center">
+        <p>Footer</p>
+    </div>
+</body>
+</html>
